@@ -1,0 +1,226 @@
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Navbar start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.nav-bar {
+
+    height: 50%;
+    border-bottom: 1px solid grey;
+}
+
+.nav-bar img {
+
+    width: 175px;
+    cursor: pointer;
+}
+
+#navbar-items {
+    text-decoration: none;
+    gap: 25px;
+  
+}
+
+#navbar-items button a {
+    text-decoration: none;
+    color: #FFFFFF;
+   
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.black-btn {
+    background-color: transparent;
+    color: #ffff;
+    padding: 18px 15px;
+    border: 1px solid #ffff;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.red-btn {
+    background-color: #ed1c24;
+    color: #ed1c24;
+    padding: 18px 15px;
+    border: 1px solid #ed1c24;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.btn-icon {
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 5px 8px;
+}
+
+.fa-solid {
+    color: #ed1c24;
+}
+
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Navbar end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Publication Start........................................ */
+
+
+.publication {
+    padding-top: 72px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.under {
+    text-align: center;
+}
+
+.under h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    display: block;
+    font-family: 'Butler';
+    margin-top: 32px;
+}
+
+.under span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 12px
+}
+
+.under p {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+.box img {
+    width: 496px;
+    height: 538px;
+}
+
+.box img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.container {
+    width: 100%;
+}
+
+.left {
+    border: 1px solid #ffffff52;
+    border-width: 1px 1px 1px 1px;
+    /* transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+    padding: 32px 0px 40px;
+    margin: 20px;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.right {
+    border: 1px solid #ffffff52;
+    border-width: 1px 1px 1px 1px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 32px 0px 40px;
+    margin: 20px;
+    transition-duration: .3s;
+    transition-property: transfo
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,footer area start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.footer-sec{
+    background-color:  rgb(20, 20, 20);
+  }
+  .footer-container{
+      
+  }
+  
+  .footer-logo img{
+      height: 100px;
+      width: 200px;
+  }
+  .footer-para {
+      text-align: start;
+      line-height: 25px;
+      color:  rgb(159, 153, 153);
+  }
+  .first{
+      width: 40%;
+  }
+  
+  .second{
+      margin: 20px 12px;
+  }
+  .third{
+      margin: 20px 12px 0px 0px;
+  }
+  .forth{
+      margin: 20px 0px;
+  }
+  .footer-flex li{
+      list-style: none;
+      line-height: 2rem;
+      margin-top: 5px;
+      font-size: 15px;
+      color:  rgb(159, 153, 153);
+  }
+  
+  .footer-flex h6{
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+     color:  rgb(159, 153, 153);
+     margin-left: 38px;
+  }
+  .footer-icon{
+      border-radius: 30px;
+      padding: 6px 6px;
+      background-color: #ED1C24;
+      margin: 0px 5px;
+      width: 27px;
+      text-align: center;
+  
+  }
+  
+  .playstore{
+      margin: 20px 15px 15px 0px;
+  }
+  .second-footer{
+      margin-top: 12px;
+      border-top:1px solid rgb(141 131 131);
+      padding: 0px 50px;
+      color: rgb(159, 153, 153);
+  
+  }
+  .left span{
+      color:  rgb(159, 153, 153);
+  }
+  
+  .footer-flex{
+    color: #FFFFFF;
+  }

@@ -1,0 +1,151 @@
+
+.intro{
+    padding: 50px;
+}
+
+
+.intro h2{
+    font-size: 3rem;
+}
+.intro p{
+    line-height: 30px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(141 131 131);
+}
+.about-container{
+    padding: 20px 15px 0px 15px;
+}
+.sub-head{
+    margin: 40px 8px;
+}
+.text p{
+    /* text-align: start;
+    margin-top: 15px;
+    margin-left: 15px;
+    line-height: 30px; */
+
+ 
+}
+.intro-img img{
+    width: 90%;
+    height: 230px;
+}
+.about-flex{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.text{
+    width: 100%;
+    margin-left: 15px;
+    
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.about-flex{
+    padding: 50px;
+}
+.text-head{
+    width: 100%;
+    /* margin-left: 15px; */
+    text-align: center;
+    font-size: 28px;
+    margin: 28px 15px;
+}
+.intro-img img{
+    width: 80%;
+}
+.intro-img{
+    width: 100%;
+}
+
+.sub-head h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-flex{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.card img{
+    /* width: 100%; */
+    width: 275px;
+    height: 326px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+#card-head{
+    font-size: 18px;
+   
+}
+
+.card p{
+    /* text-align: center; */
+    /* font-size: 16px;
+    color: rgb(159, 153, 153);
+    letter-spacing: 0.rem;
+    margin-bottom: 12px; */
+    
+}
+.card{
+    padding: 12px 12px 12px;
+    margin-bottom: 32px;
+    min-height: 430px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.06);
+    text-align: center;
+    width: 33%;
+    margin: 0px 12px;
+    
+}
+.card-text{
+    padding: 12px;
+}
+.box-flex{
+    padding: 50px;
+}
+
+.village-flex{
+    padding: 50px;
+    margin-bottom: 15px;
+}
+.boxes{
+    padding: 12px 12px 12px;
+    margin-bottom: 32px;
+    min-height: 430px;
+    border-radius: 10px;
+    background: rgb(77 77 77);
+    text-align: center;
+    width: 317px;
+}
+.boxes img{
+    height: 275px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.boxes span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 12px;
+}
+.boxes p{
+    font-size: 14px;
+  color: #FFFFFF;
+}
+
+.village-box{
+    background-color: black;
+}

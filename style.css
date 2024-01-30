@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Navbar start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.nav-bar {
+
+    height: 50%;
+    border-bottom: 1px solid grey;
+}
+
+.nav-bar img {
+
+    width: 175px;
+    cursor: pointer;
+}
+
+#navbar-items {
+    text-decoration: none;
+    gap: 25px;
+}
+
+#navbar-items button a {
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.black-btn {
+    background-color: transparent;
+    color: #ffff;
+    padding: 18px 15px;
+    border: 1px solid #ffff;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.red-btn {
+    background-color: #ed1c24;
+    color: #ed1c24;
+    padding: 18px 15px;
+    border: 1px solid #ed1c24;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.btn-icon {
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 5px 8px;
+}
+
+.fa-solid {
+    color: #ed1c24;
+}
+
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Navbar end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,main image start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.saltn-pepper{
+    font-family: 'Black Ops One', system-ui;
+}
+
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Main Image end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,WELCOME AREA start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.container {
+    /* height: 80vh; */
+    padding: 50px 0px;
+}
+
+.content {
+    padding: 20px 20px;
+
+}
+
+
+
+.content h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    height: 90%;
+
+}
+
+.para-grey {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(159, 153, 153);
+    letter-spacing: 0.rem;
+    margin-bottom: 5px;
+
+}
+
+
+.brand {
+
+    padding: 0 12px;
+}
+
+.brand img {
+    display: block;
+    height: 140px;
+    width: 250px;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: px;
+}
+
+.btn {
+    background-color: transparent;
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+    cursor: pointer;
+
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,WELCOME AREA end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,frenchise sec 01 start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+.frenchise-sec-one {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    padding: 70px;
+}
+
+.s-logo {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    height: 50px;
+}
+
+.head {
+    margin-bottom: 30px;
+}
+
+.head h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.text h3 {
+    font-size: 40px;
+
+}
+
+.text p {
+
+    font-size: 18px;
+    color: rgb(159, 153, 153);
+    /* letter-spacing: 0.1rem; */
+    margin: 10px;
+}
+
+.small {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+    border: none;
+}
+
+.frenchise-btn {
+    background-color: transparent;
+    /* display: block; */
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+    cursor: pointer;
+
+}
+
+.frenchise-icon {
+    color: rgb(159, 153, 153);
+}
+
+.frenchise-arrow-icon {
+    font-size: 18px;
+    color: #ED1C24;
+}
+
+.frenchise-arrow {
+    border-radius: 30px;
+    padding: 6px 8px;
+    background-color: #FFFFFF;
+    margin: 0px 5px;
+}
+
+.flex {
+    margin: 40px 0px;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,frenchise sec 01 end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,frenchise sec 02 start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.frenchise-sec-two {
+    height: 100%;
+    width: 100%;
+}
+
+.box-1 {
+    margin: 12px 12px;
+}
+
+.box-1 img {
+    width: 350px;
+    height: 250px;
+}
+
+.row-small {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ed1c24;
+    margin: 8px;
+    display: block;
+    text-align: center;
+    border: none;
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10PX;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,frenchise sec 02 end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,village area start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.village {
+    padding: 17px 0px 0px 0px ;
+}
+
+.village-container {
+    background-color: rgb(20, 20, 20);
+    padding: 12px 10px;
+}
+
+
+.village-image img {
+    width: 600px;
+}
+
+.village-flex text {
+    padding: 80px 10px;
+}
+
+.village-btn {
+    background-color: #28a745;
+    /* display: block; */
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+    cursor: pointer;
+
+}
+
+.village-icon {
+    color: #28a745;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,village area end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,location area start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.location-sec{
+    height: 100%;
+    width: 100%;
+    background-color: #0000;
+.location-container{
+    padding: 40px;
+}
+}
+.location-box{
+    background-color: #fff;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    color: #0000;
+   border-radius: 8px;
+}
+.location-box img{
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+}
+.location-box {
+    color: #0000;
+}
+#head5{
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-inline: 5px;
+}
+
+#head5 span ,p{
+    color: black;
+    font-weight: 800;
+}
+#head5 p{
+    color: black;
+
+}
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,location area end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,socaila area start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.social-container{
+    height: 150%;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+
+
+.boxes img{
+    
+    height: auto;
+    width: 100%;
+}
+.boxes{
+    margin: 5px;
+    padding: 5px;
+}
+/* ,,,,,,,,,,,,,,,,,,,,,,,socaila area end,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,footer area start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.footer-sec{
+  background-color:  rgb(20, 20, 20);
+}
+.footer-container{
+    padding: 0px opx;
+}
+
+.footer-logo img{
+    height: 100px;
+    width: 200px;
+}
+.footer-para {
+    text-align: start;
+    line-height: 25px;
+    color:  rgb(159, 153, 153);
+}
+.first{
+    width: 40%;
+}
+
+.second{
+    margin: 20px 12px;
+}
+.third{
+    margin: 20px 12px 0px 0px;
+}
+.forth{
+    margin: 20px 0px;
+}
+.footer-flex li{
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 5px;
+    font-size: 15px;
+    color:  rgb(159, 153, 153);
+}
+
+.footer-flex h6{
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+   color:  rgb(159, 153, 153);
+}
+.footer-icon{
+    border-radius: 30px;
+    padding: 6px 6px;
+    background-color: #ED1C24;
+    margin: 0px 5px;
+    width: 27px;
+    text-align: center;
+
+}
+
+.playstore{
+    margin: 20px 15px 15px 0px;
+}
+.second-footer{
+    margin-top: 12px;
+    border-top:1px solid rgb(141 131 131);
+    padding: 12px 150px;
+    color: rgb(159, 153, 153);
+
+}
+.left span{
+    color:  rgb(159, 153, 153);
+}
+
+.left{
+    color:  rgb(159, 153, 153);
+}
+.right span{
+    color:  rgb(159, 153, 153);
+}
